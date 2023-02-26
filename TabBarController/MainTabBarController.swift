@@ -35,8 +35,8 @@ class MainTabBarController: UITabBarController {
     }
     
     private func setTabBarAppearnce() {
-        let positionX: CGFloat = 10
-        let positionY: CGFloat = 12
+        let positionX: CGFloat = 8
+        let positionY: CGFloat = 10
         let width = tabBar.bounds.width - positionX * 2
         let height = tabBar.bounds.height + positionY * 2
         
